@@ -21,9 +21,9 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: tetris-game
-        image: mylabacr23.azurecr.io/tetris-game-app:tag
+        image: mylabacr23.azurecr.io/tetris-game-app
         ports:
-        - containerPort: 3000
+        - containerPort: 80
         resources:
           requests:
             cpu: 250m
